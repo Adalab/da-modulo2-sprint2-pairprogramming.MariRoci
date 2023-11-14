@@ -1,5 +1,5 @@
 -- pairprogramming Operadores Especiales de Filtro (de northwind)
-
+USE northwind;
 -- ej.1 Ciudades que empiezan con "A" o "B".
 SELECT `city`, `company_name`, `contact_name` FROM customers
 WHERE `city` LIKE 'A%' OR `city` LIKE 'B%';
